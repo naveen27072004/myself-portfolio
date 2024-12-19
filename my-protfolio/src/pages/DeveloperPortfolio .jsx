@@ -32,7 +32,7 @@ const projects = [
     description: 'Full-stack web application with React,Tailwind css, Node.js and MongoDB,mongoose',
     technologies: ['React', 'Node.js', 'MongoDB','Tailwind css'],
     imageUrl: './hotel.jpeg',
-    githubLink: '#',
+    githubLink: 'https://github.com/mr-anonymous-hash/RRS',
   },
   {
     id: 2,
@@ -40,7 +40,7 @@ const projects = [
     description: 'Real-time analytics dashboard with data visualization',
     technologies: ['React', 'Express.js', 'squlize'],
     imageUrl: './blog.png',
-    githubLink: '#',
+    githubLink: 'https://github.com/naveen27072004/SaloonBooking-frontend',
   },
   {
     id: 3,
@@ -48,15 +48,15 @@ const projects = [
     description: 'Its Role Base Auth App user ,Partner and company multiple role select authantaion',
     technologies: ['React', 'Express.js', 'JWT','MongoDb','mongoose'],
     imageUrl: './saloon.jpeg',
-    githubLink: '#',
+    githubLink: 'https://github.com/naveen27072004/saloonBooking-backend',
   },
   {
     id: 4,
     title:'Personal Protfolio',
     description:'My personal protfolio website',
     technologies:['React','Tailwind css'],
-    imageUrl:'./protfolio.jpeg',
-    githubLink:'#',
+    imageUrl:'./personal.jpeg',
+    githubLink:'https://github.com/naveen27072004/myself-portfolio',
   }
 ];
 
@@ -375,7 +375,7 @@ const DeveloperPortfolio = () => {
       <div className="flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 mb-6 md:mb-0 md:mr-8">
           <img 
-            src="./logo192.png" 
+            src="./my.jpeg" 
             alt="Naveen Profile" 
             className="rounded-lg shadow-lg w-full h-auto object-cover"
           />
