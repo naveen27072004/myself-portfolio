@@ -357,14 +357,21 @@ const DeveloperPortfolio = () => {
           </a>
         </div>
         <div className="flex space-x-4 mt-10">
-          <RxLinkedinLogo className="text-red-500 text-4xl animate-jump" />
+        <a href='https://www.linkedin.com/in/naveen2707/' target='_blank'>
+          <RxLinkedinLogo className="text-red-500 text-4xl animate-jump delay-0" />
+          </a>
           <span className='w-1 h-10 bg-white rounded-lg'></span>
+          <a href="https://github.com/naveen27072004?tab=repositories" target='_blank'>
           <LuGithub className="text-red-500 text-4xl animate-jump delay-100" />
+          </a>
           <span className='w-1 h-10 bg-white rounded-lg'></span>
+          <a href="mailto:naveenlatha2772004@gmail.com">
           <BiLogoGmail className="text-red-500 text-4xl animate-jump delay-200" />
+          </a>
           <span className='w-1 h-10 bg-white rounded-lg'></span>
+          <a href='https://www.linkedin.com/in/naveen2707/' target='_blank'>
           <BiCodeBlock className="text-red-500 text-4xl animate-jump delay-300" />
-          <span className='w-1 h-10 bg-white rounded-lg'></span>
+          </a><span className='w-1 h-10 bg-white rounded-lg'></span>
 
     </div>
       </section>

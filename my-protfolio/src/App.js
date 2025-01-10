@@ -1,14 +1,13 @@
 import logo from './logo.svg';
+import {useState} from 'react'
 import './App.css';
 import DeveloperPortfolio from './pages/DeveloperPortfolio ';
-import Matrix from './Matrix';
-import Resume from './pages/Resume';
+// import Resume from './pages/Resume';
 function App() {
   return (
     <>
       <DeveloperPortfolio/>
-      {/* <Matrix/> */}
-      {/* <Resume/> */}
+
     </>
   );
 }
